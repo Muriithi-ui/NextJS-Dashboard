@@ -35,6 +35,13 @@ export default function Page() {
         className="hidden md:block" //the class hidden is used to remove the image from the DOM on mobile screens, and md:block to show the image on desktop screens.
         alt="Screenshots of the dashboard project showing desktop version"
           />
+          <Image
+        src="/hero-mobile.png"
+        width={560}
+        height={620}
+        className="block md:hidden" //It should be shown on mobile screens, and hidden on desktop
+        alt="Screenshot of the dashboard project showing mobile version"
+      />
         </div>
       </div>
     </main>
