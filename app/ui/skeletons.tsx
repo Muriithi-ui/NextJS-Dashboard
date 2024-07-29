@@ -1,7 +1,6 @@
 // Loading animation
 const shimmer =
   'before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_2s_infinite] before:bg-gradient-to-r before:from-transparent before:via-white/60 before:to-transparent';
-
 export function CardSkeleton() {
   return (
     <div
@@ -17,7 +16,6 @@ export function CardSkeleton() {
     </div>
   );
 }
-
 export function CardsSkeleton() {
   return (
     <>
@@ -28,7 +26,6 @@ export function CardsSkeleton() {
     </>
   );
 }
-
 export function RevenueChartSkeleton() {
   return (
     <div className={`${shimmer} relative w-full overflow-hidden md:col-span-4`}>
@@ -43,7 +40,6 @@ export function RevenueChartSkeleton() {
     </div>
   );
 }
-
 export function InvoiceSkeleton() {
   return (
     <div className="flex flex-row items-center justify-between border-b border-gray-100 py-4">
@@ -58,7 +54,6 @@ export function InvoiceSkeleton() {
     </div>
   );
 }
-
 export function LatestInvoicesSkeleton() {
   return (
     <div
@@ -81,7 +76,6 @@ export function LatestInvoicesSkeleton() {
     </div>
   );
 }
-
 export default function DashboardSkeleton() {
   return (
     <>
@@ -101,7 +95,6 @@ export default function DashboardSkeleton() {
     </>
   );
 }
-
 export function TableRowSkeleton() {
   return (
     <tr className="w-full border-b border-gray-100 last-of-type:border-none [&:first-child>td:first-child]:rounded-tl-lg [&:first-child>td:last-child]:rounded-tr-lg [&:last-child>td:first-child]:rounded-bl-lg [&:last-child>td:last-child]:rounded-br-lg">
@@ -138,7 +131,6 @@ export function TableRowSkeleton() {
     </tr>
   );
 }
-
 export function InvoicesMobileSkeleton() {
   return (
     <div className="mb-2 w-full rounded-md bg-white p-4">
@@ -162,7 +154,6 @@ export function InvoicesMobileSkeleton() {
     </div>
   );
 }
-
 export function InvoicesTableSkeleton() {
   return (
     <div className="mt-6 flow-root">

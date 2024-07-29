@@ -7,7 +7,6 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
 import { Button } from '@/app/ui/button';
-
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (
     <form>
@@ -36,7 +35,6 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
             <UserCircleIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500" />
           </div>
         </div>
-
         {/* Invoice Amount */}
         <div className="mb-4">
           <label htmlFor="amount" className="mb-2 block text-sm font-medium">
@@ -56,7 +54,6 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
             </div>
           </div>
         </div>
-
         {/* Invoice Status */}
         <fieldset>
           <legend className="mb-2 block text-sm font-medium">
